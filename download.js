@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const uuidv1 = require("uuid/v1");
 
-const pageDownload = (url = "http://nodeprogram.com") => {
+const pageDownload = (url = "http://google.com") => {
   console.log(`downloading ${url}`);
   const fetchPage = (urlF, callback) => {
     http
